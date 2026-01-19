@@ -9,9 +9,8 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(./img/—Pngtree—flat\ business\ login\ box\ login_1319176.jpg);
-    background-size: cover;
-   /* background-position: center;*/
+    background: url(./img/bg.png);
+    background-position: center;
 }
 
 .container{
@@ -22,17 +21,19 @@ body{
     padding: 30px 40px;
     color: white;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    backdrop-filter: blur(10px);
 }
 
 .container h1{
     text-align: center;
-    font-size: 32px;
+    font-size: 50px;
     font-weight: bold;
 }
 
 .input-box{
     position: relative;
-    margin: 30px 0;
+    right: 15px;
+    margin: 30px;
     height: 30px;
 }
 
@@ -57,3 +58,44 @@ body{
     top: 25%;
 }
 
+.forgot-password{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 40px;
+    font-size: 25px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.login:hover{
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: white;
+    transition: 0.5s;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.register{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.register a:hover, .forgot-password > a:hover{
+    color: black;
+    transition: 0.5s;
+}
