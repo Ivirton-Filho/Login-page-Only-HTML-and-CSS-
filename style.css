@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    font-family: "Libre Baskerville", serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(./img/—Pngtree—flat\ business\ login\ box\ login_1319176.jpg);
+    background-size: cover;
+   /* background-position: center;*/
+}
+
+.container{
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    padding: 30px 40px;
+    color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.input-box{
+    position: relative;
+    margin: 30px 0;
+    height: 30px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgb(169, 175, 182) ; 
+    border-radius: 40px;
+    outline: none;
+    color: white;
+    padding-left: 25px;
+}
+
+.input-box input::placeholder{
+    color: rgb(214, 214, 214);
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 25%;
+}
+
